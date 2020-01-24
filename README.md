@@ -2,7 +2,7 @@
 
 ## Study Notes ##
 
-<第一行代码>
+<第一行代码, 2nd Edition>
 
 by 郭霖
 
