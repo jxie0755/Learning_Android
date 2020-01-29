@@ -83,4 +83,11 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
-*.xml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/markdown-navigator-enh.xml
+.idea/markdown-navigator.xml
+FirstLineOfCodes/Projects/HelloWorld/.idea/codeStyles/Project.xml
+FirstLineOfCodes/Projects/HelloWorld/.idea/gradle.xml
+FirstLineOfCodes/Projects/HelloWorld/.idea/misc.xml
+FirstLineOfCodes/Projects/HelloWorld/.idea/runConfigurations.xml
