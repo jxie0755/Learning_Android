@@ -8,7 +8,7 @@
 ![Android structure](MD_image/C1%20000%20Android%20structure.png "Android structure")
 
 
-Android大致可以分为四层架构：
+Android大致可以分为四层架构: 
 - Linux内核层
     - Android系统是基于Linux内核的, 这一层为Android设备的各种硬件提供了底层的驱动, 如:
         - 显示驱动
@@ -19,14 +19,14 @@ Android大致可以分为四层架构：
         - 电源管理
         - ...等等
 - 系统运行库层
-    - 这一层通过一些C/C++库来为Android系统提供了主要的特性支持。
+    - 这一层通过一些C/C++库来为Android系统提供了主要的特性支持.
         - 如SQLite库提供了数据库的支持
         - OpenGL|ES库提供了3D绘图的支持
         - Webkit库提供了浏览器内核的支持,
         - ...等等
 - 应用框架层
     - 这一层主要提供了构建应用程序时可能用到的各种API
-        - Android自带的一些核心应用就是使用这些API完成的，开发者也可以通过使用这些API来构建自己的应用程序
+        - Android自带的一些核心应用就是使用这些API完成的, 开发者也可以通过使用这些API来构建自己的应用程序
 - 应用层
     - 所有安装在手机上的应用程序都是属于这一层的, 比如:
         - 系统自带的联系人
@@ -39,7 +39,7 @@ Android大致可以分为四层架构：
 
 1. 四大组件
     - Android系统四大组件分别是活动(Activity)
-        - 活动是所有Android应用程序的门面, 凡是在应用中你看得到的东西，都是放在活动中
+        - 活动是所有Android应用程序的门面, 凡是在应用中你看得到的东西, 都是放在活动中
     - 服务(Service)
         - 服务就比较低调了, 你无法看到它, 但它会一直在后台默默地运行
             - 即使用户退出了应用, 服务仍然是可以继续运行的
@@ -80,7 +80,7 @@ Android大致可以分为四层架构：
 
 在Android Studio中创建新项目需要注意一些选项:
 - Application name表示应用名称, 此应用安装到手机之后会在手机上显示该名称
-- Company Domain表示公司域名, 如果是个人开发者，没有公司域名的话，填example.com就可以
+- Company Domain表示公司域名, 如果是个人开发者, 没有公司域名的话, 填example.com就可以
 - Package name表示项目的包名
     - Android系统就是通过包名来区分不同应用程序的, 因此包名一定要具有唯一性
     - Android Studio会根据应用名称和公司域名来自动帮我们生成合适的包名
@@ -90,8 +90,8 @@ Android大致可以分为四层架构：
 
 
 创建完之后, Android Studio自动为我们生成了很多东西
-- 你现在不需要编写任何代码，HelloWorld项目就已经可以运行了
-- 但是在此之前还必须要有一个运行的载体，可以是一部Android手机，也可以是Android模拟器
+- 你现在不需要编写任何代码, HelloWorld项目就已经可以运行了
+- 但是在此之前还必须要有一个运行的载体, 可以是一部Android手机, 也可以是Android模拟器
 - 创建模拟器Create Virtual Device:
     - 可以自己选设备
     - 然后选择设备安装的Android系统
